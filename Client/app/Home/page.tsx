@@ -1,7 +1,10 @@
 import React from 'react'
+import Chat from '../Components/Chat'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <Chat/>
+    </div>
   )
 }
